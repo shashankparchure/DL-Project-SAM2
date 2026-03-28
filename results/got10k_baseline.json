@@ -1,0 +1,1117 @@
+{
+  "dataset": "GOT-10k val",
+  "model": "SAM 2.1 Hiera Small",
+  "iou_threshold": 0.7,
+  "total_sequences": 180,
+  "passed": 155,
+  "failed": 25,
+  "overall_avg_iou": 0.8436,
+  "elapsed_seconds": 1558.4,
+  "sequences": [
+    {
+      "sequence": "GOT-10k_Val_000001",
+      "num_frames": 60,
+      "avg_iou": 0.9566,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000002",
+      "num_frames": 100,
+      "avg_iou": 0.9643,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000003",
+      "num_frames": 80,
+      "avg_iou": 0.8007,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000004",
+      "num_frames": 91,
+      "avg_iou": 0.8202,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000005",
+      "num_frames": 80,
+      "avg_iou": 0.9644,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000006",
+      "num_frames": 80,
+      "avg_iou": 0.9521,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000007",
+      "num_frames": 100,
+      "avg_iou": 0.9153,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000008",
+      "num_frames": 90,
+      "avg_iou": 0.978,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000009",
+      "num_frames": 100,
+      "avg_iou": 0.9523,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000010",
+      "num_frames": 99,
+      "avg_iou": 0.9488,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000011",
+      "num_frames": 100,
+      "avg_iou": 0.8935,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000012",
+      "num_frames": 70,
+      "avg_iou": 0.9083,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000013",
+      "num_frames": 100,
+      "avg_iou": 0.8181,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000014",
+      "num_frames": 100,
+      "avg_iou": 0.7552,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000015",
+      "num_frames": 120,
+      "avg_iou": 0.9172,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000016",
+      "num_frames": 100,
+      "avg_iou": 0.8225,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000017",
+      "num_frames": 100,
+      "avg_iou": 0.8046,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000018",
+      "num_frames": 100,
+      "avg_iou": 0.8979,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000019",
+      "num_frames": 100,
+      "avg_iou": 0.8949,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000020",
+      "num_frames": 98,
+      "avg_iou": 0.1764,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000020_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000021",
+      "num_frames": 110,
+      "avg_iou": 0.6614,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000021_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000022",
+      "num_frames": 100,
+      "avg_iou": 0.8931,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000023",
+      "num_frames": 80,
+      "avg_iou": 0.8244,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000024",
+      "num_frames": 100,
+      "avg_iou": 0.8067,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000025",
+      "num_frames": 110,
+      "avg_iou": 0.8054,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000026",
+      "num_frames": 99,
+      "avg_iou": 0.8132,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000027",
+      "num_frames": 100,
+      "avg_iou": 0.9361,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000028",
+      "num_frames": 150,
+      "avg_iou": 0.9182,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000029",
+      "num_frames": 120,
+      "avg_iou": 0.9163,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000030",
+      "num_frames": 110,
+      "avg_iou": 0.7691,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000031",
+      "num_frames": 100,
+      "avg_iou": 0.8776,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000032",
+      "num_frames": 100,
+      "avg_iou": 0.9293,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000033",
+      "num_frames": 100,
+      "avg_iou": 0.6264,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000033_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000034",
+      "num_frames": 80,
+      "avg_iou": 0.54,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000034_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000035",
+      "num_frames": 70,
+      "avg_iou": 0.7548,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000036",
+      "num_frames": 70,
+      "avg_iou": 0.8406,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000037",
+      "num_frames": 80,
+      "avg_iou": 0.7853,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000038",
+      "num_frames": 70,
+      "avg_iou": 0.9373,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000039",
+      "num_frames": 90,
+      "avg_iou": 0.9034,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000040",
+      "num_frames": 70,
+      "avg_iou": 0.7762,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000041",
+      "num_frames": 100,
+      "avg_iou": 0.3973,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000041_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000042",
+      "num_frames": 100,
+      "avg_iou": 0.7327,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000043",
+      "num_frames": 100,
+      "avg_iou": 0.9798,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000044",
+      "num_frames": 90,
+      "avg_iou": 0.9259,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000045",
+      "num_frames": 100,
+      "avg_iou": 0.9354,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000046",
+      "num_frames": 100,
+      "avg_iou": 0.817,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000047",
+      "num_frames": 70,
+      "avg_iou": 0.9747,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000048",
+      "num_frames": 80,
+      "avg_iou": 0.9705,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000049",
+      "num_frames": 80,
+      "avg_iou": 0.9002,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000050",
+      "num_frames": 81,
+      "avg_iou": 0.776,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000051",
+      "num_frames": 91,
+      "avg_iou": 0.8231,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000052",
+      "num_frames": 101,
+      "avg_iou": 0.9343,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000053",
+      "num_frames": 101,
+      "avg_iou": 0.9444,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000054",
+      "num_frames": 120,
+      "avg_iou": 0.811,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000055",
+      "num_frames": 71,
+      "avg_iou": 0.5243,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000055_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000056",
+      "num_frames": 63,
+      "avg_iou": 0.0788,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000056_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000057",
+      "num_frames": 64,
+      "avg_iou": 0.8578,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000058",
+      "num_frames": 70,
+      "avg_iou": 0.9674,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000059",
+      "num_frames": 96,
+      "avg_iou": 0.6291,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000059_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000060",
+      "num_frames": 110,
+      "avg_iou": 0.7113,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000061",
+      "num_frames": 101,
+      "avg_iou": 0.8889,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000062",
+      "num_frames": 101,
+      "avg_iou": 0.8972,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000063",
+      "num_frames": 81,
+      "avg_iou": 0.8434,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000064",
+      "num_frames": 81,
+      "avg_iou": 0.8441,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000065",
+      "num_frames": 101,
+      "avg_iou": 0.8242,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000066",
+      "num_frames": 101,
+      "avg_iou": 0.9153,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000067",
+      "num_frames": 70,
+      "avg_iou": 0.8596,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000068",
+      "num_frames": 100,
+      "avg_iou": 0.905,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000069",
+      "num_frames": 101,
+      "avg_iou": 0.9666,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000070",
+      "num_frames": 90,
+      "avg_iou": 0.923,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000071",
+      "num_frames": 81,
+      "avg_iou": 0.7534,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000072",
+      "num_frames": 81,
+      "avg_iou": 0.6395,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000072_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000073",
+      "num_frames": 91,
+      "avg_iou": 0.9029,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000074",
+      "num_frames": 91,
+      "avg_iou": 0.4304,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000074_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000075",
+      "num_frames": 101,
+      "avg_iou": 0.8183,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000076",
+      "num_frames": 90,
+      "avg_iou": 0.8899,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000077",
+      "num_frames": 100,
+      "avg_iou": 0.6748,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000077_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000078",
+      "num_frames": 110,
+      "avg_iou": 0.3545,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000078_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000079",
+      "num_frames": 100,
+      "avg_iou": 0.8833,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000080",
+      "num_frames": 100,
+      "avg_iou": 0.7462,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000081",
+      "num_frames": 110,
+      "avg_iou": 0.9537,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000082",
+      "num_frames": 90,
+      "avg_iou": 0.7721,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000083",
+      "num_frames": 100,
+      "avg_iou": 0.8826,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000084",
+      "num_frames": 90,
+      "avg_iou": 0.8987,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000085",
+      "num_frames": 100,
+      "avg_iou": 0.9283,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000086",
+      "num_frames": 89,
+      "avg_iou": 0.9445,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000087",
+      "num_frames": 100,
+      "avg_iou": 0.8965,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000088",
+      "num_frames": 101,
+      "avg_iou": 0.9282,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000089",
+      "num_frames": 111,
+      "avg_iou": 0.9171,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000090",
+      "num_frames": 101,
+      "avg_iou": 0.967,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000091",
+      "num_frames": 81,
+      "avg_iou": 0.9635,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000092",
+      "num_frames": 101,
+      "avg_iou": 0.8309,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000093",
+      "num_frames": 81,
+      "avg_iou": 0.9624,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000094",
+      "num_frames": 91,
+      "avg_iou": 0.9271,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000095",
+      "num_frames": 80,
+      "avg_iou": 0.9538,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000096",
+      "num_frames": 71,
+      "avg_iou": 0.6532,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000096_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000097",
+      "num_frames": 70,
+      "avg_iou": 0.9331,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000098",
+      "num_frames": 101,
+      "avg_iou": 0.9466,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000099",
+      "num_frames": 100,
+      "avg_iou": 0.5059,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000099_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000100",
+      "num_frames": 101,
+      "avg_iou": 0.9517,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000101",
+      "num_frames": 121,
+      "avg_iou": 0.9687,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000102",
+      "num_frames": 100,
+      "avg_iou": 0.8931,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000103",
+      "num_frames": 390,
+      "avg_iou": 0.2656,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000103_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000104",
+      "num_frames": 110,
+      "avg_iou": 0.8459,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000105",
+      "num_frames": 80,
+      "avg_iou": 0.9786,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000106",
+      "num_frames": 161,
+      "avg_iou": 0.9734,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000107",
+      "num_frames": 91,
+      "avg_iou": 0.8721,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000108",
+      "num_frames": 201,
+      "avg_iou": 0.9233,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000109",
+      "num_frames": 81,
+      "avg_iou": 0.9365,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000110",
+      "num_frames": 471,
+      "avg_iou": 0.9625,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000111",
+      "num_frames": 81,
+      "avg_iou": 0.8613,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000112",
+      "num_frames": 131,
+      "avg_iou": 0.9716,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000113",
+      "num_frames": 131,
+      "avg_iou": 0.8361,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000114",
+      "num_frames": 181,
+      "avg_iou": 0.9622,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000115",
+      "num_frames": 81,
+      "avg_iou": 0.9477,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000116",
+      "num_frames": 297,
+      "avg_iou": 0.9508,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000117",
+      "num_frames": 101,
+      "avg_iou": 0.9565,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000118",
+      "num_frames": 201,
+      "avg_iou": 0.7279,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000119",
+      "num_frames": 251,
+      "avg_iou": 0.9112,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000120",
+      "num_frames": 70,
+      "avg_iou": 0.9727,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000121",
+      "num_frames": 131,
+      "avg_iou": 0.9757,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000122",
+      "num_frames": 419,
+      "avg_iou": 0.9634,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000123",
+      "num_frames": 140,
+      "avg_iou": 0.9662,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000124",
+      "num_frames": 181,
+      "avg_iou": 0.9703,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000125",
+      "num_frames": 431,
+      "avg_iou": 0.8692,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000126",
+      "num_frames": 101,
+      "avg_iou": 0.8688,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000127",
+      "num_frames": 101,
+      "avg_iou": 0.9465,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000128",
+      "num_frames": 100,
+      "avg_iou": 0.9234,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000129",
+      "num_frames": 101,
+      "avg_iou": 0.6771,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000129_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000130",
+      "num_frames": 91,
+      "avg_iou": 0.8623,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000131",
+      "num_frames": 81,
+      "avg_iou": 0.4433,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000131_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000132",
+      "num_frames": 91,
+      "avg_iou": 0.8198,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000133",
+      "num_frames": 101,
+      "avg_iou": 0.8742,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000134",
+      "num_frames": 100,
+      "avg_iou": 0.7303,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000135",
+      "num_frames": 91,
+      "avg_iou": 0.5922,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000135_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000136",
+      "num_frames": 121,
+      "avg_iou": 0.8827,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000137",
+      "num_frames": 301,
+      "avg_iou": 0.5693,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000137_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000138",
+      "num_frames": 91,
+      "avg_iou": 0.6235,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000138_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000139",
+      "num_frames": 101,
+      "avg_iou": 0.9762,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000140",
+      "num_frames": 101,
+      "avg_iou": 0.9542,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000141",
+      "num_frames": 121,
+      "avg_iou": 0.8569,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000142",
+      "num_frames": 91,
+      "avg_iou": 0.9197,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000143",
+      "num_frames": 81,
+      "avg_iou": 0.9506,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000144",
+      "num_frames": 81,
+      "avg_iou": 0.915,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000145",
+      "num_frames": 101,
+      "avg_iou": 0.9394,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000146",
+      "num_frames": 81,
+      "avg_iou": 0.8684,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000147",
+      "num_frames": 81,
+      "avg_iou": 0.9474,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000148",
+      "num_frames": 81,
+      "avg_iou": 0.9195,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000149",
+      "num_frames": 80,
+      "avg_iou": 0.9041,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000150",
+      "num_frames": 83,
+      "avg_iou": 0.8848,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000151",
+      "num_frames": 60,
+      "avg_iou": 0.7708,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000152",
+      "num_frames": 74,
+      "avg_iou": 0.8993,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000153",
+      "num_frames": 81,
+      "avg_iou": 0.979,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000154",
+      "num_frames": 81,
+      "avg_iou": 0.9629,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000155",
+      "num_frames": 90,
+      "avg_iou": 0.8968,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000156",
+      "num_frames": 281,
+      "avg_iou": 0.9733,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000157",
+      "num_frames": 81,
+      "avg_iou": 0.6803,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000157_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000158",
+      "num_frames": 81,
+      "avg_iou": 0.9164,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000159",
+      "num_frames": 80,
+      "avg_iou": 0.9059,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000160",
+      "num_frames": 81,
+      "avg_iou": 0.8947,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000161",
+      "num_frames": 80,
+      "avg_iou": 0.9597,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000162",
+      "num_frames": 81,
+      "avg_iou": 0.9179,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000163",
+      "num_frames": 90,
+      "avg_iou": 0.9212,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000164",
+      "num_frames": 75,
+      "avg_iou": 0.7823,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000165",
+      "num_frames": 101,
+      "avg_iou": 0.4717,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000165_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000166",
+      "num_frames": 100,
+      "avg_iou": 0.977,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000167",
+      "num_frames": 101,
+      "avg_iou": 0.9547,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000168",
+      "num_frames": 91,
+      "avg_iou": 0.95,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000169",
+      "num_frames": 91,
+      "avg_iou": 0.9083,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000170",
+      "num_frames": 91,
+      "avg_iou": 0.8033,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000171",
+      "num_frames": 91,
+      "avg_iou": 0.9257,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000172",
+      "num_frames": 211,
+      "avg_iou": 0.9176,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000173",
+      "num_frames": 400,
+      "avg_iou": 0.9795,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000174",
+      "num_frames": 391,
+      "avg_iou": 0.9275,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000175",
+      "num_frames": 271,
+      "avg_iou": 0.6874,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000175_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000176",
+      "num_frames": 291,
+      "avg_iou": 0.3418,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000176_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000177",
+      "num_frames": 178,
+      "avg_iou": 0.5876,
+      "status": "FAIL",
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k/GOT-10k_Val_000177_failed.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000178",
+      "num_frames": 261,
+      "avg_iou": 0.9676,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000179",
+      "num_frames": 421,
+      "avg_iou": 0.9324,
+      "status": "PASS"
+    },
+    {
+      "sequence": "GOT-10k_Val_000180",
+      "num_frames": 108,
+      "avg_iou": 0.9181,
+      "status": "PASS"
+    }
+  ]
+}

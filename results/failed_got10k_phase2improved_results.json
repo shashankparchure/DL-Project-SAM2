@@ -1,0 +1,214 @@
+{
+  "dataset": "got10k_val_failed",
+  "model": "Phase 2 Improved (HiM2SAM-style)",
+  "parameters": {
+    "confidence_threshold": 0.7,
+    "occlusion_threshold": 0.3,
+    "lost_threshold": 0.15,
+    "recovery_frames": 5,
+    "chunk_size": 200
+  },
+  "sequences": [
+    {
+      "sequence": "GOT-10k_Val_000020",
+      "num_frames": 98,
+      "visible_frames": 80,
+      "occluded_frames": 18,
+      "avg_iou": 0.23953718741647947,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000020_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000021",
+      "num_frames": 110,
+      "visible_frames": 110,
+      "occluded_frames": 0,
+      "avg_iou": 0.6967310348683264,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000021_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000033",
+      "num_frames": 100,
+      "visible_frames": 100,
+      "occluded_frames": 0,
+      "avg_iou": 0.6362176699263898,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000033_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000034",
+      "num_frames": 80,
+      "visible_frames": 75,
+      "occluded_frames": 5,
+      "avg_iou": 0.6327952095782012,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000034_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000041",
+      "num_frames": 100,
+      "visible_frames": 100,
+      "occluded_frames": 0,
+      "avg_iou": 0.44376297792858166,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000041_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000055",
+      "num_frames": 71,
+      "visible_frames": 63,
+      "occluded_frames": 8,
+      "avg_iou": 0.5543226001438426,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000055_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000056",
+      "num_frames": 63,
+      "visible_frames": 49,
+      "occluded_frames": 14,
+      "avg_iou": 0.13850162418038872,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000056_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000059",
+      "num_frames": 96,
+      "visible_frames": 96,
+      "occluded_frames": 0,
+      "avg_iou": 0.6647779836522799,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000059_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000072",
+      "num_frames": 81,
+      "visible_frames": 81,
+      "occluded_frames": 0,
+      "avg_iou": 0.6474489589713316,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000072_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000074",
+      "num_frames": 91,
+      "visible_frames": 91,
+      "occluded_frames": 0,
+      "avg_iou": 0.4663367995534404,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000074_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000077",
+      "num_frames": 100,
+      "visible_frames": 100,
+      "occluded_frames": 0,
+      "avg_iou": 0.6834262549149963,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000077_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000078",
+      "num_frames": 110,
+      "visible_frames": 109,
+      "occluded_frames": 1,
+      "avg_iou": 0.4353815391874946,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000078_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000096",
+      "num_frames": 71,
+      "visible_frames": 71,
+      "occluded_frames": 0,
+      "avg_iou": 0.6937393484529757,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000096_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000099",
+      "num_frames": 100,
+      "visible_frames": 100,
+      "occluded_frames": 0,
+      "avg_iou": 0.544691036702579,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000099_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000103",
+      "num_frames": 390,
+      "visible_frames": 377,
+      "occluded_frames": 13,
+      "avg_iou": 0.427980057586532,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000103_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000129",
+      "num_frames": 101,
+      "visible_frames": 100,
+      "occluded_frames": 1,
+      "avg_iou": 0.6931449026898885,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000129_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000131",
+      "num_frames": 81,
+      "visible_frames": 81,
+      "occluded_frames": 0,
+      "avg_iou": 0.49648684929031145,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000131_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000135",
+      "num_frames": 91,
+      "visible_frames": 91,
+      "occluded_frames": 0,
+      "avg_iou": 0.6346399334811296,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000135_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000137",
+      "num_frames": 301,
+      "visible_frames": 301,
+      "occluded_frames": 0,
+      "avg_iou": 0.6681568788172808,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000137_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000138",
+      "num_frames": 91,
+      "visible_frames": 91,
+      "occluded_frames": 0,
+      "avg_iou": 0.6640351434110875,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000138_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000157",
+      "num_frames": 81,
+      "visible_frames": 81,
+      "occluded_frames": 0,
+      "avg_iou": 0.7189370842836665,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000157_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000165",
+      "num_frames": 101,
+      "visible_frames": 93,
+      "occluded_frames": 8,
+      "avg_iou": 0.5895382056967776,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000165_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000175",
+      "num_frames": 271,
+      "visible_frames": 271,
+      "occluded_frames": 0,
+      "avg_iou": 0.6714407937175659,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000175_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000176",
+      "num_frames": 291,
+      "visible_frames": 287,
+      "occluded_frames": 4,
+      "avg_iou": 0.8291226886411992,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000176_phase2improved.mp4"
+    },
+    {
+      "sequence": "GOT-10k_Val_000177",
+      "num_frames": 178,
+      "visible_frames": 178,
+      "occluded_frames": 0,
+      "avg_iou": 0.6058069980328314,
+      "video_path": "/home/predator-linux/Acads/Sem6/DL/Project/motion_aware_sam2/results/videos/failed_got10k_phase2improved/GOT-10k_Val_000177_phase2improved.mp4"
+    }
+  ],
+  "overall_avg_iou": 0.5456
+}
