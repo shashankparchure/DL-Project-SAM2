@@ -474,6 +474,6 @@ We use standard VOS/VOT metrics from the SAM 2 paper:
 
 <div align="center">
 
-**If you find this work useful, please consider giving it a ⭐**
+
 
 </div>
