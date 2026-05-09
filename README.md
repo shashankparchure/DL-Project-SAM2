@@ -1,14 +1,14 @@
-<div align="center">
+<h1 align="center">Motion-Aware SAM 2</h1>
 
-# Motion-Aware SAM 2
+<h3 align="center">Kalman Filter Enhanced Video Object Segmentation with Occlusion Handling</h3>
 
-### Kalman Filter Enhanced Video Object Segmentation with Occlusion Handling
-
-
-
-[**Paper**](https://arxiv.org/pdf/2408.00714) | [**Results**](#experimental-results) | [**Installation**](#installation) | [**Usage**](#usage) | [**Demo Video**](https://youtu.be/V6ZQ1yZN-O4)
-
-</div>
+<p align="center">
+  <a href="https://arxiv.org/pdf/2408.00714"><b>Paper</b></a> | 
+  <a href="#experimental-results"><b>Results</b></a> | 
+  <a href="#installation"><b>Installation</b></a> | 
+  <a href="#usage"><b>Usage</b></a> | 
+  <a href="https://youtu.be/V6ZQ1yZN-O4"><b>Demo Video</b></a>
+</p>
 
 ---
 
@@ -24,13 +24,11 @@
 
 ## Visual Comparison
 
-<div align="center">
-
-![Video Comparison](utils/src/dl_video_comparision.gif)
-
-*Left: SAM 2.1 Baseline (loses track during occlusion) | Right: Motion-Aware SAM 2 (maintains tracking)*
-
-</div>
+<p align="center">
+  <img src="utils/src/dl_video_comparision.gif" alt="Video Comparison" />
+  <br>
+  <em>Left: SAM 2.1 Baseline (loses track during occlusion) | Right: Motion-Aware SAM 2 (maintains tracking)</em>
+</p>
 
 ---
 
@@ -38,11 +36,9 @@
 
 We enhance SAM 2's video object segmentation by integrating a Kalman filter for motion prediction and a state machine for occlusion handling. Our method addresses SAM 2's tendency to lose track during occlusions and fast motion.
 
-<div align="center">
-
-![Pipeline](utils/src/pipeline.png)
-
-</div>
+<p align="center">
+  <img src="utils/src/pipeline.png" alt="Pipeline" />
+</p>
 
 ### Architecture
 
@@ -143,11 +139,9 @@ where:
 
 ### GOT-10k Validation Set (180 sequences)
 
-<div align="center">
-
-![GOT-10k Results](utils/src/got10k.png)
-
-</div>
+<p align="center">
+  <img src="utils/src/got10k.png" alt="GOT-10k Results" />
+</p>
 
 | Method | J (IoU) | F (Boundary) | J&F | SR₀.₅ | SR₀.₇₅ | AUC |
 |:-------|:-------:|:------------:|:---:|:-----:|:------:|:---:|
@@ -157,11 +151,9 @@ where:
 
 ### LaSOT Dataset
 
-<div align="center">
-
-![LaSOT Results](utils/src/lasot.png)
-
-</div>
+<p align="center">
+  <img src="utils/src/lasot.png" alt="LaSOT Results" />
+</p>
 
 | Method | J (IoU) | Improvement |
 |:-------|:-------:|:-----------:|
@@ -472,8 +464,4 @@ We use standard VOS/VOT metrics from the SAM 2 paper:
 
 ---
 
-<div align="center">
 
-
-
-</div>
