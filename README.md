@@ -26,7 +26,7 @@
 
 <div align="center">
 
-![Video Comparison](https://github.com/shashankparchure/DL-Project-SAM2/tree/c1c6df15c4c855bd8606a1789e5102a54d00282c/utils/src/dl_video_comparision.gif)
+![Video Comparison](utils/src/dl_video_comparision.gif)
 
 *Left: SAM 2.1 Baseline (loses track during occlusion) | Right: Motion-Aware SAM 2 (maintains tracking)*
 
@@ -40,7 +40,7 @@ We enhance SAM 2's video object segmentation by integrating a Kalman filter for 
 
 <div align="center">
 
-![Pipeline](https://github.com/shashankparchure/DL-Project-SAM2/tree/c1c6df15c4c855bd8606a1789e5102a54d00282c/utils/src/pipeline.png)
+![Pipeline](utils/src/pipeline.png)
 
 </div>
 
@@ -145,7 +145,7 @@ where:
 
 <div align="center">
 
-![GOT-10k Results](https://github.com/shashankparchure/DL-Project-SAM2/tree/c1c6df15c4c855bd8606a1789e5102a54d00282c/utils/src/got10k.png)
+![GOT-10k Results](utils/src/got10k.png)
 
 </div>
 
@@ -159,7 +159,7 @@ where:
 
 <div align="center">
 
-![LaSOT Results](https://github.com/shashankparchure/DL-Project-SAM2/tree/c1c6df15c4c855bd8606a1789e5102a54d00282c/utils/src/lasot.png)
+![LaSOT Results](utils/src/lasot.png)
 
 </div>
 
